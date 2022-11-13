@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* =======================================================
+    Template Name: khanSoftware
+    Created By: yeahea khan
+    Envato Profile: 
+    Website: 
+    Version: 1.0.0
+    Support: 
+========================================================= */
+
+
+
+/* 
+====================================
+[ CSS TABLE CONTENT ]
+------------------------------------
+    1.0 - General
+    2.0 - Typography
+    3.0 - menu bar section
+    4.0 - about-section 
+    5.0 - service section
+    6.0 -  Recent work
+    8.0 - Team Area
+    9.0 - Blog Area
+    10.0 - Clients Area
+    11.0 - Contact Area
+    12.0 - Footer Area
+   
+-------------------------------------
+[ END CSS TABLE CONTENT ]
+===================================== 
+*/
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-1.0 Genera=-=-=-=-=-=-=-=-=-=-=-=-= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-1.0 Genera=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 2.0 Typograph =-=-=-=-=-=-=-=-=-=-=-=-= */
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 18px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 2.0 Typograph =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 3.0 menu bar =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+
+.menu-section{
+	background: url(../images/24.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+	
+}
+.nav-scrollBg{
+    position: fixed;
+    width: 100%;
+}
+.scroll-bg{
+    background:rebeccapurple;
+    padding-bottom: 7px;
+    z-index: 999;
+    transition: .5s;
+
+}
+.logo{
+    padding-top: 25px;
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.menu-icon{
+	display: none;
+}
+.menu{
+    padding-top: 25px;
+}
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.dec h1 {
+    color: #fff;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 3.0 menu bar =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 4.0 about seciton =-=-=-=-=-=-=-=-=-=-=-=-= */
+.about-section {
+    padding: 100px 0px;
+}
+.service-content h2::after {
+    content: '';
+    position: absolute;
+    width: 226px;
+    height: 5px;
+    background: #fb5200;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service-content h2 {
+    position: relative;
+}
+
+.about-title p {
+    font-size: 20px;
+    color: #fb5200;
+}
+
+.about-dec h2 {
+    font-size: 17px;
+}
+button.btn {
+    background: #fb5200;
+    color: #fff;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 4.0 about section =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 5.0 our service  section =-=-=-=-=-=-=-=-=-=-=-=-= */
+.our-services{
+    padding: 100px 0px;
+}
+.service-item {
+    box-shadow: 0px 4px 10px 0px #000;
+    /* padding: 10px; */
+    transition: .5s;
+    height: 288px;
+}
+.service-item:hover{
+    margin-top: -20px;
+}
+.s-icon {
+    font-size: 50px;
+    text-align: center;
+    color: #fb5200;
+    padding-top: 21px;
+}
+
+.service-dec h2 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service-dec p {
+    line-height: 25px;
+    text-align: center;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 5.0 our services section =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 6.0 recent work section =-=-=-=-=-=-=-=-=-=-=-=-= */
+.recent-work{
+    padding: 100px 0px;
+}
+.filter-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.filter-btn button{
+    border: none;
+    margin: 15px;
+}
+.product-items{
+    margin-top: 30px;
+}
+.product-img {
+    width: 316px;
+    height: 269px;
+    margin: auto;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 6.0 recent work section =-=-=-=-=-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 7.0 client work section =-=-=-=-=-=-=-=-=-=-=-=-= */
+.client-dec  p{
+    font-weight: 400;
+}
+.client-dec h6 {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.client-star i{
+    color: #fb5200;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 7.0 client work section =-=-=-=-=-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 8.0 best team section =-=-=-=-=-=-=-=-=-=-=-=-= */
+.best-team {
+    padding: 100px 0px;
+}
+.team-social {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.team-social i {
+    margin: 10px 11px;
+    color: #fb5200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-social {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: #ddd;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.team-member:hover .team-social{
+    top: 0;
+    
+}
+.member-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=- 8.0 team member section =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+ul li a {
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    display: flex;
+}
+footer.my_footer {
+    background: #fb5200;
+}
+
+p.copyText {
+    color: #ffff;
+}
+ul li a:hover{
+    color: #fff;
+    
+}
+
